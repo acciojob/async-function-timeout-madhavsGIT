@@ -8,7 +8,7 @@ btn.addEventListener('click', async () => {
 	document.getElementById("output").innerText = text;
 })
 
-function dealyFunction(delay) {
+function delayFunction(delay) {
 	return new Promise((resolve) => {
 		setTimeout(resolve, delay)
 	})
